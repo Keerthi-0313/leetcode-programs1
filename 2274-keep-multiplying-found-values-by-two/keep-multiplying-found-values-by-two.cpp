@@ -2,7 +2,7 @@ class Solution {
 public:
     int findFinalValue(vector<int>& nums, int original) {
     int i=0;
-            while(i!=nums.size())
+            while(i<nums.size())
             {
             if(nums[i] == original)
             {
